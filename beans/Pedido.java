@@ -1,16 +1,15 @@
 package beans;
 
-import java.lang.String;
 import java.util.Date;
 
 public class Pedido {
 	
-	//Tipos de tamanho possíveis em uma lista enumerada
+	//Tipos de tamanho possï¿½veis em uma lista enumerada
 	enum Tamanho{
 		pequeno, medio, grande;
 	}
 	
-	//Tipos de retirada possíveis em uma lista enumerada
+	//Tipos de retirada possï¿½veis em uma lista enumerada
 	enum Retirada{
 		agora, entrega;
 	}
