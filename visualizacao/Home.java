@@ -11,11 +11,12 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
 import javax.swing.JTextArea;
+import javax.swing.JLabel;
 
 public class Home {
 
 	private JFrame frame;
-	private JTextField txtBemVindoAo;
+	private JLabel lblBemVindoAo;
 
 	/**
 	 * Launch the application.
@@ -60,17 +61,9 @@ public class Home {
 		btnEntrar.setBounds(146, 139, 126, 23);
 		frame.getContentPane().add(btnEntrar);
 		
-		txtBemVindoAo = new JTextField();
-		txtBemVindoAo.setBackground(new Color(255, 127, 80));
-		txtBemVindoAo.setHorizontalAlignment(SwingConstants.CENTER);
-		txtBemVindoAo.setText("Bem vindo ao Sistema Bolos Corporation");
-		txtBemVindoAo.setBounds(50, 42, 329, 63);
-		frame.getContentPane().add(txtBemVindoAo);
-		txtBemVindoAo.setColumns(10);
-		
-		JTextArea txtrXzxz = new JTextArea();
-		txtrXzxz.setText("x\\zxz");
-		txtrXzxz.setBounds(34, 157, 102, 22);
-		frame.getContentPane().add(txtrXzxz);
+		lblBemVindoAo = new JLabel("Bem vindo ao Sistema Bolos Corporation");
+		lblBemVindoAo.setHorizontalAlignment(SwingConstants.CENTER);
+		lblBemVindoAo.setBounds(47, 68, 337, 60);
+		frame.getContentPane().add(lblBemVindoAo);
 	}
 }
