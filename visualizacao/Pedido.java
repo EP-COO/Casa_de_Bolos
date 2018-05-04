@@ -90,6 +90,26 @@ public class Pedido {
 		choice_4.setBounds(90, 150, 145, 20);
 		frame.getContentPane().add(choice_4);
 		
+		Label label_4 = new Label("Tamanho:");
+		label_4.setBounds(276, 42, 62, 22);
+		frame.getContentPane().add(label_4);
+		
+		Choice choice_5 = new Choice();
+		choice_5.setBounds(351, 44, 145, 20);
+		frame.getContentPane().add(choice_5);
+		
+		Label label_5 = new Label("Quantidade:");
+		label_5.setBounds(276, 70, 62, 22);
+		frame.getContentPane().add(label_5);
+		
+		Choice choice_6 = new Choice();
+		choice_6.setBounds(351, 72, 145, 20);
+		frame.getContentPane().add(choice_6);
+		
+		Label label_6 = new Label("Peso:");
+		label_6.setBounds(276, 98, 62, 22);
+		frame.getContentPane().add(label_6);
+		
 		
 		
 		
