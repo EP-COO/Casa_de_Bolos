@@ -1,5 +1,7 @@
 package visualizacao;
 
+import beans.Desconto;
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -111,8 +113,6 @@ public class Menu extends TelaAbstrata {
 		lblBemVindoA.setBounds(10, 11, 414, 202);
 		frmBolosCorporation.getContentPane().add(lblBemVindoA);
 	}
-	
-	
 	
 	public void teste(ActionEvent e) {
 		System.out.println("funfou!!!");
