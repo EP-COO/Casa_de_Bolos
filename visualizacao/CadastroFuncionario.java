@@ -40,7 +40,7 @@ public class CadastroFuncionario {
 			public void run() {
 				try {
 					CadastroCliente window = new CadastroCliente();
-					window.frmBolosCorporation.setVisible(true);
+					window.frameCadastroCliente.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

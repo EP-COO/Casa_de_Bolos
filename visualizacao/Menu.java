@@ -65,6 +65,14 @@ public class Menu extends TelaAbstrata {
 		
 		JMenuItem mntmCadastroCliente = new JMenuItem("Cadastro Cliente");
 		mnCadastroCliente.add(mntmCadastroCliente);
+		mnCadastroCliente.addActionListener(new ActionListener() {
+	        public void actionPerformed(ActionEvent e) {
+	        	frame.dispose();		        	
+	        	CadastroCliente cliente = new CadastroCliente();		        	 
+	        	cliente.frameCadastroCliente.setVisible(true);	        	
+	        }
+
+	    });
 		
 		JMenuItem mntmCadastroFuncionario = new JMenuItem("Cadastro Funcionario");
 		mnCadastroCliente.add(mntmCadastroFuncionario);

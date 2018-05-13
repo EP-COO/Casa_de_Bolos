@@ -7,7 +7,7 @@ public class Desconto {
 	protected static double valorTotal;
 	protected static double desconto = 0;;
 	
-	//10% indicação amigo
+	//10% indicação amigo (na primeira compra- MUDAR AKI)
 	public static void indicacaoSimples(boolean indicado, int quantidade, double precoTotalBoloSimples) {
 		if (indicado) {
 			valorTotal = quantidade*precoTotalBoloSimples*0.9;
